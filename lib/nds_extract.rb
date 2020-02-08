@@ -11,11 +11,10 @@ index = 0
   while index < 6
     director_gross = director_data[:movies][index][:worldwide_gross]
     total += director_gross
-    binding.pry
     index += 1 
   end 
 
-#binding.pry 
+binding.pry 
 
 return total
 end 
