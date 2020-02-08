@@ -14,7 +14,7 @@ index = 0
     index += 1 
   end 
 
-binding.pry 
+#binding.pry 
 
 return total
 end 
